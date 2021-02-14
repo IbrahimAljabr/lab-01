@@ -1,0 +1,112 @@
+.se-a{
+    width: 100%;
+    height: 10%;
+}
+.se-b{
+    width: 100%;
+    height: 14%;
+}
+.se-cd{
+    width: 100%;
+    height: 28%;
+
+}
+.c{
+    width: 100%;
+    height: 50%;
+
+}
+.d{
+    width: 100%;
+    height: 50%;
+
+}
+.se-efgh{
+    width: 100%;
+    height: 40%;
+}
+.e{
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+.f{
+    width: 50%;
+    float: right;
+    height: 50%;
+}
+.g{
+    width: 50%;
+    float: left;
+    height: 50%;
+}
+.h{
+    width: 50%;
+    float: right;
+    height: 50%;
+}
+.se-i{
+    height: 12%;
+}
+
+@media (min-width: 960px) {
+    
+    .se-cd{
+        width: 80%;
+        height: 28%;
+        display: block;
+        float: right;
+    
+    }
+    .c{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .d{
+        width: 50%;
+        height: 100%;
+        float: right;
+    }
+    .se-b{
+        float: left;
+        background-color:magenta ;
+        height: 81%;
+        width: 20%;
+    }
+    .b{
+        width: 100%;
+        float: left;;
+        
+    }
+
+    .se-efgh{
+        width: 80%;
+        height: 40%;
+        float: right;
+    }
+    .e{
+        width: 25%;
+        height: 100%;
+        float: left;
+
+    }
+    .f{
+        width: 25%;
+        height: 100%;
+        float: left;
+        
+    }
+    .g{
+        width: 25%;
+        height: 100%;
+        float: left;
+        
+    }
+    .h{
+        width: 25%;
+        height: 100%;
+        float: left;
+    }
+   
+}
