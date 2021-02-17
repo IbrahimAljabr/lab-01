@@ -1,14 +1,11 @@
 .se-a{
     background-color: blueviolet;
-    line-height: 450%;
 }
 .se-b{
     background-color: green;
-    line-height: 600%;
 }
 .se-cd{
     background-color: blue;
-    line-height: 600%;
 
 }
 .c{
@@ -21,7 +18,6 @@
 }
 .se-efgh{
     background-color: greenyellow;
-    line-height: 1000%;
 }
 .e{
     background-color: hotpink;
@@ -37,7 +33,6 @@
 }
 .se-i{
     background-color: lightslategray;
-    line-height: 600%;
 }
 h1{
     text-align: center;
@@ -47,7 +42,19 @@ h1{
     background-color: maroon;
 }
 
-@media (min-width: 960px) {
+@media (min-width: 660px) {
+
+    .se-a{background-color: burlywood;}
+    .se-b{background-color: cadetblue;}
+    .c{background-color: cornsilk;}
+    .d{background-color: darkgoldenrod;}
+    .e{background-color: darkorchid;}
+    .f{background-color: darkslategrey;}
+    .g{background-color: deepskyblue;}
+    .h{background-color: forestgreen;}
+    .i{background-color: greenyellow;}
+}
+@media (min-width: 1160px) {
 
     .se-a{background-color: mediumaquamarine;}
     .se-b{background-color: mediumslateblue;}
@@ -59,3 +66,5 @@ h1{
     .h{background-color: springgreen;}
     .i{background-color: sienna;}
 }
+
+
