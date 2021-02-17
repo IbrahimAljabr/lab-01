@@ -1,112 +1,66 @@
-.se-a{
-    width: 100%;
-    height: 10%;
-}
-.se-b{
-    width: 100%;
-    height: 14%;
+.se-a ,.se-i ,.se-b{
+    display: grid;
 }
 .se-cd{
-    width: 100%;
-    height: 28%;
-
-}
-.c{
-    width: 100%;
-    height: 50%;
-
-}
-.d{
-    width: 100%;
-    height: 50%;
-
+    display: grid;
+    justify-items: stretch;
+    grid-template-rows:1fr 1fr  ;
 }
 .se-efgh{
-    width: 100%;
-    height: 40%;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns:1fr 1fr  ;
 }
-.e{
-    width: 50%;
-    float: left;
-    height: 50%;
-}
-.f{
-    width: 50%;
-    float: right;
-    height: 50%;
-}
-.g{
-    width: 50%;
-    float: left;
-    height: 50%;
-}
-.h{
-    width: 50%;
-    float: right;
-    height: 50%;
-}
-.se-i{
-    height: 12%;
+.a,.b,.c,.d,.e,.f,.g,.h,.i{
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (min-width: 960px) {
-    
-    .se-cd{
-        width: 80%;
-        height: 28%;
-        display: block;
-        float: right;
-    
+@media (min-width: 660px) {
+    .main{
+        grid-template-columns:1fr 3fr;
+        grid-template-rows:1fr 2fr 3fr 1fr;
     }
-    .c{
-        width: 50%;
-        height: 100%;
-        float: left;
-    }
-    .d{
-        width: 50%;
-        height: 100%;
-        float: right;
+    .se-a{
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
     .se-b{
-        float: left;
-        background-color:magenta ;
-        height: 81%;
-        width: 20%;
+        display: grid;
+        grid-row-start: 2;
+        grid-row-end: 7;
     }
-    .b{
-        width: 100%;
-        float: left;;
-        
+    .se-cd{
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows:1fr ;
+    
     }
-
     .se-efgh{
-        width: 80%;
-        height: 40%;
-        float: right;
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
     }
-    .e{
-        width: 25%;
-        height: 100%;
-        float: left;
+}
 
+@media (min-width: 1160px) {
+    .main{
+        grid-template-columns:1fr 3fr;
+        grid-template-rows:1fr 2fr 3fr 1fr;
     }
-    .f{
-        width: 25%;
-        height: 100%;
-        float: left;
-        
+    .se-a{
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
-    .g{
-        width: 25%;
-        height: 100%;
-        float: left;
-        
+    .se-b{
+        display: grid;
+        grid-row-start: 2;
+        grid-row-end: 7;
     }
-    .h{
-        width: 25%;
-        height: 100%;
-        float: left;
+    .se-cd{
+        grid-template-columns:1fr 1fr ;
+        grid-template-rows:1fr ;
+    
     }
-   
+    .se-efgh{
+        grid-template-columns:1fr 1fr 1fr 1fr  ;
+    }
 }

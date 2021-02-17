@@ -1,5 +1,8 @@
 .main{
-    width: 90%;
-    height: 750px;
-    margin: 5%;
+    display: grid;
+    height: 800px;
+    justify-items: stretch;
+    grid-template-rows: 1fr 2fr 3fr 4fr 1fr ;
+    /* grid-template-columns:1fr  ; */
+    
 }
